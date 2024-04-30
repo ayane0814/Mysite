@@ -68,6 +68,7 @@ a {
     text-align: center;
     display: flex;
     justify-content: center;
+    color: #000;
 }
 
 .portfolio-box {
@@ -76,8 +77,8 @@ a {
 
 .sub-title {
     font-size: 32px;
-    color: #000;
     position: relative;
+    margin-top: 90px;
 }
 
 .sub-title::after {
@@ -95,7 +96,6 @@ a {
 
 .sub-text {
     font-size: 16px;
-    color: #000;
     margin: 30px 0;
 }
 
@@ -145,10 +145,12 @@ a {
     text-align: center;
     display: flex;
     justify-content: center;
+    color: #000;
 }
 
 .feature-box {
     width: 980px;
+    margin-bottom: 90px;
 }
 
 .feature-list {
@@ -163,6 +165,125 @@ a {
 
 .fa-solid {
     font-size: 60px;
+}
+
+.feature-title {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.feature-text {
+    font-size: 16px;
+}
+
+.feature-list > div:nth-child(2) {
+    margin: 0 10px;
+}
+
+.profile {
+    background-color: #ECEFF1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-box {
+    width: 1024px;
+}
+
+.self-introduction {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+
+.profile-icon-box {
+    width: 512px;
+}
+
+.profile-icon {
+    width: 250px;
+    height: 250px;
+    /*画像を丸く切り抜ける*/
+    border-radius: 100%;
+    text-align: center;
+}
+
+.profile-text {
+    width: 512px;
+    text-align: left;
+    color: #000;
+}
+
+.self-introduction-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.self-introduction-text {
+    font-size: 16px;
+}
+
+.text-bottom {
+    margin-bottom: 20px;
+}
+
+.contact {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-box {
+    width: 800px;
+    margin-bottom: 90px;
+}
+
+.contact-sns {
+    display: flex;
+    justify-content: center;
+}
+
+.mail-tel {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.mail-tel-box {
+    text-align: left;
+}
+
+.contact-sns-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.contact-sns-title-top {
+    margin-top: 20px;
+}
+
+.mail-tel-link {
+    text-decoration: underline;
+    color: #000;
+}
+
+.sns {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.sns-box {
+    text-align: left;
+}
+
+.sns-icon > i:nth-child(2) {
+    margin: 0 20px;
+}
+
+.fa-brands {
+    font-size: 50px;
 }
 
 footer {
